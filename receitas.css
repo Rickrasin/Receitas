@@ -1,0 +1,41 @@
+.r-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.r-card {
+  max-width: 200px;
+
+  
+}
+
+.r-card-text {
+  margin: 0px 5%;
+}
+
+.r-card-center {
+  text-align: center;
+}
+
+.r-card-img {
+  position: relative;
+  height: 88px;
+  margin: 9px;
+}
+
+.r-card-ingredientes {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.r-card-descricao {
+  position: relative;
+  border-top: 1px solid #c1c0ac;
+  padding-top: 9px;
+  margin: 9px;
+}
+
+.r-card-descricao::before {
+  content: " ";
+}
